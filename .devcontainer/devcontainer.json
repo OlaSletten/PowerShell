@@ -11,6 +11,8 @@
 		"ms-dotnettools.csharp",
 		"ms-vscode.powershell",
 		"DavidAnson.vscode-markdownlint",
-		"vitaliymaz.vscode-svg-previewer"
+		"vitaliymaz.vscode-svg-previewer",
+		"DocNougat.powershell-commander",
+		"bewhite.psrule-vscode"
 	]
 }
