@@ -21,8 +21,8 @@ namespace Microsoft.PowerShell.Commands
         #region Command Line Parameters
 
         /// <summary>
-        /// Gets or sets the files names to be attached to the email.
-        /// If the filename specified can not be found, then the relevant error
+        /// Gets or sets the file names to be attached to the email.
+        /// If a specified file name cannot be found, then the relevant error
         /// message should be thrown.
         /// </summary>
         [Parameter(ValueFromPipeline = true, ValueFromPipelineByPropertyName = true)]
@@ -107,8 +107,8 @@ namespace Microsoft.PowerShell.Commands
         public string From { get; set; }
 
         /// <summary>
-        /// Gets or sets the name of the Host used to send the email. This host name will be assigned
-        /// to the Powershell variable PSEmailServer, if this host can not reached an appropriate error.
+        /// Gets or sets the name of the host used to send the email. This host name will be assigned
+        /// to the PowerShell variable PSEmailServer. If this host cannot be reached, an appropriate error
         /// message will be displayed.
         /// </summary>
         [Parameter(Position = 3, ValueFromPipelineByPropertyName = true)]
