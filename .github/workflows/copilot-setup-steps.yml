@@ -24,4 +24,4 @@ jobs:
           python3 --version
           pip3 --version
       - name: Verify xterm
-        run: dpkg -s xterm | grep -i '^Version'
+        run: dpkg -s xterm
