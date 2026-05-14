@@ -15,9 +15,10 @@ jobs:
     permissions:
       contents: read
     steps:
-      - name: Install Python and xterm
+      - name: Install Python, pip, and xterm
         run: |
           sudo apt-get update
           sudo apt-get install -y python3 python3-pip xterm
           python3 --version
+          pip3 --version
           dpkg -s xterm | grep -i '^Version'
