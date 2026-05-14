@@ -15,7 +15,7 @@ jobs:
     permissions:
       contents: read
     steps:
-      - name: Install Python and terminal
+      - name: Install Python and xterm
         run: |
           sudo apt-get update
           sudo apt-get install -y python3 python3-pip xterm
